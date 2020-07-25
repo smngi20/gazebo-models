@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="bentmill">
+  <model name="windmill-bent">
     <link name="link">
       <inertial>
       <pose>0 0 0.0175 0 0 0</pose>
@@ -18,14 +18,14 @@
         <pose>0 0 0.0175 0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://bowl/meshes/test.dae</uri>
+            <uri>model://windmill-bent/meshes/test.dae</uri>
           </mesh>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://bowl/meshes/test.dae</uri>
+            <uri>model://windmill-bent/meshes/test.dae</uri>
           </mesh>
         </geometry>
       </visual>
